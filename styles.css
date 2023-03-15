@@ -1,0 +1,286 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #F0AF72;
+  }
+
+a.stuff:visited {
+  color: Black;
+}
+a.stuff:hover {
+  color: #24523D;
+}
+a.stuff:active {
+  color: #F0AF72;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Monotype Corsiva", Times,
+  Georgia;
+}
+
+
+.article p {
+  text-align: left;
+  margin-left: 25px;
+  width: 94%;
+  }
+
+#content {
+  overflow: auto;}
+
+#nav, #intro, #footer {
+  margin: 1%;
+}
+
+#nav {
+  font-size: 120%
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+li a {
+
+  font-family: "Monotype Corsiva";
+  font-size: 120%
+}
+
+li a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+
+#nav, #footer {
+  background-color: #EBEDE5;
+  padding: 0.5em;
+  text-align: center;
+}
+
+
+#intro {
+  height: 31em;
+  margin-bottom: 1em;
+  font-size: 110%;
+}
+
+.article {
+  height: 30em;
+  margin-bottom: 1em;
+  font-size: 110%;
+  margin: 1%;
+}
+
+#intro, .article {
+  background-color: #EBEDE5;
+}
+
+#intro p {
+  margin-left: 30px;
+  width: 96%;
+  text-align: center;
+}
+
+img.align-center {
+  display: block;
+  margin: 0px auto;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6 {
+  width: 48%;
+  float: left;
+}
+
+.column2, .column6 {
+  overflow: scroll;
+}
+
+.workscited {
+  width: 98%;
+  float: left;
+  height: 27em;
+}
+
+.menu {
+  float: center;
+  height: 27.3em;
+}
+
+img.imgfloat{
+  float: left;
+}
+.menu h1 {
+  padding: 25px;
+}
+
+.menu p{
+  padding-left: 745px;
+  width: 45%;
+}
+
+.entry {
+  width: 220px;
+  float: left;
+  margin: 10px;
+  height: 198px;
+}
+
+figure {
+  width: 202px;
+  height: 380px;
+  background-color: #EBEDE5;
+  padding: 9px;
+  }
+figure img {
+  width: 200px;
+  height: 302px;
+  }
+
+figcaption {
+  padding-left: 20px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+figure p {
+  text-align: left;
+}
+
+.order {
+  width: 48%;
+  float: left;
+  height: 73.3em;
+}
+
+.order2 {
+  width: 48%;
+  float: left;
+  height: 19.15em;
+}
+
+.order2 p{
+  margin-top: 2em;
+  font-size: 120%
+}
+
+.order, .order4 {
+  text-align: center;
+}
+
+.order2 p {
+  text-align: center;
+}
+
+
+fieldset {
+  text-align: left;
+}
+
+
+.order fieldset label {
+    float: left;
+    width: 7em;
+    text-align: right;}
+
+.order fieldset input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width:15em; }
+
+#registerlogin {
+    margin-left: 10.2em;
+    width:8.5em;
+    border: 2px solid black;
+    background-color: #F0AF72;
+}
+
+#redeem, #placeorder {
+  width:8.5em;
+  border: 2px solid black;
+  background-color: #F0AF72;
+}
+
+.order3 {
+  width: 48%;
+  float: left;
+  height: 37.7em;
+}
+
+.order4 {
+  width: 48%;
+  float: left;
+  height: 13em;
+}
+
+h3.nutrition {
+  margin-left: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+.contact1 {
+  width: 98%;
+  float: center;
+  height: 6em;
+  text-align: center;
+}
+
+.contact1 h1 {
+  padding-top: 8px;
+}
+
+.contact2 {
+  width: 48%;
+  float: left;
+  text-align: center;
+}
+
+
+
+.contact3 {
+  width: 48%;
+  float: left;
+}
+
+.contact3 p {
+  text-align: center;
+}
+
+.comment_recieved {
+  width: 98%;
+  float: left;
+  text-align: center;
+  padding-top: 1em;
+  font-family: "Monotype Corsiva", Times, Georgia;
+}
+
+.comment_recieved p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.feedbacks {
+  width: 98%;
+  float: left;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.feedbacks table {
+  margin-left: 330px;
+}
+
+.feedbacks th {
+  font-size: 1.9em;
+  font-family: "Monotype Corsiva", Times, Georgia;
+  text-align: center;
+}

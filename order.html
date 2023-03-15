@@ -1,0 +1,236 @@
+<HTML>
+  <head>
+    <title>Order - Catayo Bubble Tea Shop</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/styles.css">
+  </head>
+  <body>
+    <form action="http://example.com/join.php" method="get">
+    <div id="header">
+      <div id="nav">
+        <a href="index.html" class="stuff">
+          <img src="images/catayo_logo.png" alt="Catayo Icon" width="80" height="74" align="left"/></a>
+        <ul>
+          <li><a href="index.html" class="stuff">Home</a></li>
+          <li><a href="about.html" class="stuff">About</a></li>
+          <li><a href="menu.html" class="stuff">Menu</a></li>
+          <li><a href="order.html" class="stuff">Order</a></li>
+          <li><a href="contact.php" class="stuff">Contact</a></li>
+          <li><a href="feedbacks.php" class="stuff">Feedbacks</a></li>
+          <a href="https://www.facebook.com/COMEBUYTaiwan/?ref=page_internal" class="stuff">
+            <img src="images/facebook_icon.png" alt="Face Book Icon" width="30" height="30" /></a>
+          <a href="https://www.instagram.com/twtigersugar/" class="stuff">
+            <img src="images/instagram_icon.png" alt="Instagram Icon" width="30" height="30"/></a>
+          <a href="https://twitter.com/muni_gurume/status/1114475232733962240" class="stuff">
+            <img src="images/twitter_icon.png" alt="Twitter Icon" width="30" height="30"/></a>
+          <a href="https://www.youtube.com/watch?v=CQHD917D8zM" class="stuff">
+            <img src="images/youtube_icon.png" alt="YouTube Icon" width="30" height="30"/></a>
+          <input type="surch" value="Search" />
+          <input type="submit" value="Search" />
+        </ul>
+      </div>
+    </div>
+    <div id="content">
+      <div class="article order">
+        <h1>Order and Customize Your Tea</h1>
+        <label for="ordertpe">Order Type::</label>
+        <input type="radio" name="choice" value="Pickup" checked="checked" /> Pickup
+        <input type="radio" name="choice" value="Delivery" /> Delivery
+        <br />
+        <br />
+        <br />
+        <label for="date">Order Date:</label>
+        <input type="date" name="orderdate" id="date" required="required"/>
+        <label for="time">Order Time:</label>
+        <input type="time" name="ordertime" id="time" required="required"/>
+        <br />
+        <br />
+        Sweetness: <select name="sweetness">
+          <option value="regular" selected="selected">Regular - 10</option>
+          <option value="less">Less - 7</option>
+          <option value="half">Half - 5</option>
+          <option value="few">Few - 3</option>
+          <option value="none">None - 0</option>
+          </select>
+         Cold/Hot: <select name="ice">
+          <option value="normal" selected="selected">Normal - 10</option>
+          <option value="few">Half - 5</option>
+          <option value="none">None - 0</option>
+          <option value="hot">Hot</option>
+          </select>
+         Size: <select name="size">
+          <option value="small" selected="selected">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+          </select>
+         <br />
+         <br />
+         Tea: <select name="tea">
+          <option value="small" selected="selected">Boba Milk Tea</option>
+          <option value="whitetea">White Tea</option>
+          <option value="oolongtea">Oolong Tea</option>
+          <option value="eboolongtea">Eastern Beauty Oolong Tea</option>
+          <option value="mpftropicaltea">Mango Passion Fruit Tropical Tea</option>
+          <option value="lemonaiyutea">Lemon Aiyu Jelly Tea</option>
+          <option value="tpbboba">Tiger Boba Milk Tea with Mochi</option>
+          </select>
+          <br />
+          <br />
+          <br />
+          <fieldset>
+            <legend>Register/Login:</legend>
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" /><br/>
+            <label for="password">Password:</label>
+            <input type="text" name="password" id="password" required="required" />
+            <br />
+            <input type="submit" value="Register/Login" id="registerlogin" />
+            <br />
+            <br />
+          </fieldset>
+          <br />
+          <br />
+          <fieldset>
+            <legend>Payment Method:</legend>
+            <br />
+            Type: <select name="payments">
+              <option value="credit card" selected="selected">Credit Card</option>
+              <option value="Debit card">Debit Card</option>
+            </select><br/></br>
+              <label for="card number">Card number:</label>
+              <input type="number" name="number" id="number" required="required"/>
+              <br />
+              <br />
+              <label for="expiration date">Expiration Date:</label>
+              <input type="number" name="number" id="number" required="required"/>
+              <input type="number" name="number" id="number" required="required"/>
+              <br />
+              <br />
+              <label for="cvc">CVC/CVV:</label>
+              <input type="number" name="number" id="number" required="required"/>
+              <br />
+              <br />
+              <label for="zip" id="zip">Zip:</label>
+          		<input type="text" name="zip" accesskey="z" id="zip" pattern="\d{5}([\-]\d{4})?"
+          		placeholder="Optional but appreciated: 99999" title="Enter in the format 99999">
+              <select name="country">
+                <option value="us" selected="selected">United Stated of America</option>
+                <option value="ca">Canada</option>
+                <option value="mx">Mexico</option>
+                <option value="tw">R.O.C (Taiwan)</option>
+              </select>
+              <br />
+              <br />
+              <label for="coupon">Coupon Code:</label>
+              <input type="number" name="number" id="number" required="required"/>
+              <input type="submit" value="Redeem" id="redeem" />
+              <br />
+          </fieldset>
+          <br />
+          <br />
+          <fieldset>
+            <br />
+            <legend>Contact Information:</legend>
+            <label for="username">Name:</label>
+            <input type="text" name="name" required="required" />
+            <br/>
+            <label for="phone">Phone:</label>
+            <input type="phone" name="phone" id="phone" />
+            <br />
+            <label for="address">Your Address:</label>
+            <input type="address" name="address" id="address" /><br/>
+            <label for="address">City:</label>
+            <input type="address" name="city" id="city" /><br/>
+            <label for="address">Sate:</label>
+            <input type="address" name="state" id="state" />
+            <br />
+            <label for="address">Postal Code:</label>
+            <input type="address" name="postalcode" id="postalcode" />
+            <br />
+          </fieldset>
+          <br />
+          <input type="submit" value="Place Your Order" id="placeorder" />
+          </div>
+          <div class="article order2">
+            <h1>Business Hours</h1>
+            <p>Mon - Thurs 9:30am - 8pm</p>
+            <p>Fri - Sat 9:30am - 9pm</p>
+            <p>Sun 9:30am - 7pm</p>
+          </div>
+          <div class="article order3">
+            <h1>Nutritions</h1>
+            <h3 class="nutrition">Sugar Calories (per 700ml)</h3>
+            <table width="720"
+                  cellpadding="10"
+                  cellspacing="1"
+                  border="1"
+                  bgcolor="#efefef">
+            <tr>
+              <th width="150"></th>
+              <th>Tea</th>
+              <th>Tea Latte (Milk)</th>
+              <th bgcolor="#cccccc">Milk Tea (Non-dairy creamer)</th>
+            </tr>
+            <tr>
+              <th>None</th>
+              <td>0</td>
+              <td>150</td>
+              <td bgcolor="#cccccc">230</td>
+            </tr>
+            <tr>
+              <th>Few</th>
+              <td>60</td>
+              <td>210</td>
+              <td bgcolor="#cccccc">290</td>
+            </tr>
+            <tr>
+              <th>Half</th>
+              <td>100</td>
+              <td>250</td>
+              <td bgcolor="#cccccc">330</td>
+            </tr>
+            <tr>
+              <th>Less</th>
+              <td>140</td>
+              <td>290</td>
+              <td bgcolor="#cccccc">370</td>
+            </tr>
+            <tr>
+              <th>Regular</th>
+              <td>200</td>
+              <td>350</td>
+              <td bgcolor="#cccccc">430</td>
+            </tr>
+          </table>
+          <h3 class="nutrition">Boba Calories</h3>
+          <table width="720"
+                 cellpadding="10"
+                 cellspacing="1"
+                 border="1"
+                 bgcolor="#efefef">
+            <tr>
+              <th width="150"></th>
+              <th>Boba/ Pearl/ Tapioca Balls</th>
+            </tr>
+            <tr>
+               <th>Kcal</th>
+               <td>220</td>
+             </tr>
+          </table>
+          </div>
+          <div class="article order4">
+            <h1>Healthy Diet Suggestion</h1>
+            <p>According to the <i>Dietary Guidelines for Americans 2020-2025</i>,
+               the sugar intake of Americans aged 2 years and older should be kept
+               below 10% of total daily calories.
+               Children under 2 years of age should not eat foods
+               and beverages with added sugar.</p>
+          </div>
+      </div>
+      <div id="footer">
+        <p>&copy; Copyright 2021 Catayo Bubble Tea Shop</p>
+      </div>
+  </body>
+</HTML>
