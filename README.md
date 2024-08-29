@@ -1,4 +1,4 @@
-# Hardy-s-Portfolio-web-design
+# Hardy-s-Portfolio-Web-Design
 This is Hardy's portfolio for web design.
 echo "# Hardy-s-Portfolio" >> README.md
 git init
