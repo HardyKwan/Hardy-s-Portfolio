@@ -1,5 +1,5 @@
-# Hardy-s-Portfolio
-This is Hardy's portfolio for coding.
+# Hardy-s-Portfolio-web-design
+This is Hardy's portfolio for web design.
 echo "# Hardy-s-Portfolio" >> README.md
 git init
 git add README.md
